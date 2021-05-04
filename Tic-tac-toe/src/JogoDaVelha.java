@@ -85,7 +85,7 @@ public class JogoDaVelha {
 			}
 		}
 		
-		// Verifica diagonal secund·ria
+		// Verifica diagonal secund√°ria
 		contadorX = 0;
 		contadorO = 0;
 		for (int i = 0; i < getTabuleiro().length; i++) {
