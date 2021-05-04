@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Biblioteca
+comment1.params=
+comment1.target=Biblioteca()
+comment2.params=novoLivro
+comment2.target=boolean\ adicionaLivro(Livro)
+comment3.params=strBusca
+comment3.target=Livro[]\ buscaLivroTitulo(java.lang.String)
+comment3.text=public\ Livro[]\ buscaLivroTitulo(String\ strBusca){\r\n\ \ \ \ \ \ \ \ Livro[]\ arrayTemp\ \=\ new\ Livro[numLivros];\r\n\ \ \ \ \ \ \ \ for\ (int\ i\ \=\ 0;\ i\ <\ numLivros;\ i++){\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (livros[i].getTitulo().contains(strBusca)){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ arrayTemp[i]\ \=\ livros[i];\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ continue;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ return\ arrayTemp;\r\n\ \ \ \ }\r\n\ \ \ \ \r\n\ \ \ \ public\ Livro[]\ buscaLivroAtePreco(double\ precoMax){\r\n\ \ \ \ \ \ \ \ Livro[]\ arrayTemp\ \=\ new\ Livro[numLivros];\r\n\ \ \ \ \ \ \ \ for\ (int\ i\ \=\ 0;\ i\ <\ numLivros;\ i++){\r\n\ \ \ \ \ \ \ \ \ \ \ \ double\ temp\ \=\ livros[i].getPreco();\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (livros[i]\ \!\=\ null){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if\ (temp\ <\ precoMax){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ arrayTemp[i]\ \=\ livros[i];\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ continue;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ return\ arrayTemp;\r\n}
+comment4.params=precoMax
+comment4.target=Livro[]\ buscaLivroAtePreco(double)
+comment5.params=
+comment5.target=void\ imprimeCatalogo()
+numComments=6
