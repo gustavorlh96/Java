@@ -1,0 +1,10 @@
+Travel to Mars in Primo Speed
+A group of scientists are making new experiences to create a starship that allows a trip to Mars, much faster than todays day. This starship will use two rockets with a new fuel, a lot more efficient than those used until today. But the speed that new rockets can provide to the starship is directly related to the weight of the stored fuel these rockets (in kg) and a curious relation of weight primes. For example, if the total weight of the rocket fuel is 1010 kg, the attained speed (in km/h) will be the sum of the tenth prime number starting from 1010 (including it): 1013 -> 1019 -> 1021 -> 1031 -> 1033 -> 1039 -> 1049 -> 1051 -> 1061 -> 1063, or 10380 km/h.
+
+Scientists are very intrigued by this existing mathematical relationship and want that you build a program that calculate how much the starship would take to get from Earth to Mars with this new fuel given the weigh of rockets (of course, they are trying to create the biggest possible rockets) and assuming that the distance from earth to mars on the launch day will be 60 million kilometers.
+
+Input
+The input contains a single integer weight (1000 < weight ≤ 60000) indicating the maximum weight of fuel (in kg) that can stored by the rockets.
+
+Output
+Your program must print two lines. The first line contains the velocity acchieved by the starship, followed by text "km/h". The second line contains the estimated time to travel to Mars in hours and days (truncated) with corresponding text messages, like shown below.​
