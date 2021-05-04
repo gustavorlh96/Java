@@ -32,7 +32,7 @@ public class Principal {
 					flagGeral = true;
 				}
 				else
-					System.out.println("Entrada inv·lida, digite novamente.");
+					System.out.println("Entrada inv√°lida, digite novamente.");
 			} while (flagConfirma == false);
 		} while (flagGeral == false);
 	}
@@ -77,7 +77,7 @@ public class Principal {
 					if (palavrasTexto[i] != null)
 						System.out.println(palavrasTexto[i]);
 			} else
-				System.out.println("N„o h· erros de grafia no texto.");
+				System.out.println("N√£o h√° erros de grafia no texto.");
 			
 			existeErros = false;
 			
@@ -95,7 +95,7 @@ public class Principal {
 					}
 				
 				if (existeErros == false)
-					out.println("N„o h· erros de grafia no texto.");
+					out.println("N√£o h√° erros de grafia no texto.");
 			}	
 			out.close();
 		} catch (IOException e) {
